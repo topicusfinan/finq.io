@@ -258,6 +258,12 @@ h1, h2
 		color: #049cdb;
 	}
 	
+
+footer 
+{
+	background: #333;
+}
+
 #footercont
 {
 	position: relative;
@@ -279,10 +285,10 @@ h1, h2
 		#footercont #socialmedia ul li a
 		{
 			font-size: 16px;
-			color: #999;
+			color: #efefef;
 			width: 180px;
 			border-radius: 8px;
-			background: #efefef;
+			background: rgba(239, 239, 239, 0.3);
 			padding: 4px 8px;
 			position: relative;
 			display: inline-block;
