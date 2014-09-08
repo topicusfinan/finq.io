@@ -81,7 +81,7 @@ a
 
 p
 {
-	margin: 0 0 20px 0;
+	margin: 0 0 1em 0;
 }
 
 strong
@@ -96,7 +96,7 @@ em
 
 h1, h2
 {
-	margin: 0 0 20px 0;
+	margin: 0;
 	letter-spacing: -1px;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -104,9 +104,8 @@ h1, h2
 	
 	h1
 	{
-		font-size: 80px;
-		line-height: 100px;
-		
+		font-size: 4em;
+		line-height: 1em;
 	}
 
 	h1 i
@@ -117,15 +116,16 @@ h1, h2
 
 	h2
 	{
-		font-size: 38px;
-		line-height: 38px;
+		font-size: 2em;
+		line-height: 1.1em;
+		margin-bottom: 0.4em;
 	}
 		
 	h3
 	{
-		font-size: 32px;
+		font-size: 1.5em;
 		font-weight: 400;
-		line-height: 70px;
+		line-height: 2.3em;
 	}
 
 
@@ -185,8 +185,8 @@ h1, h2
 .fullwidth
 {
 	width: 100%;
-	padding: 60px 30px;
-	min-width: 280px;
+	padding: 3em 1.5em;
+	min-width: 14em;
 }
 
 	.fullwidth .bodycontainer
@@ -204,7 +204,7 @@ h1, h2
 
 	#topcontainer h1
 	{
-		padding: 6px 0 10px 0;
+		padding: .3em 0 .5em 0;
 		margin-bottom: 0;
 		letter-spacing: -1.5px;
 		color: #444;
@@ -213,8 +213,8 @@ h1, h2
 	
 		#topcontainer h1 span
 		{
-			font-size: 70px;
-			line-height: 70px;
+			font-size: 3.5em;
+			line-height: 3.5em;
 			letter-spacing: -1.4px;
 			font-weight: 300;
 		}
@@ -227,8 +227,8 @@ h1, h2
 
 	#topcontainer p span
 	{
-		font-size: 90px;
-		line-height: 90px;
+		font-size: 4.5em;
+		line-height: 4.5em;
 		color: #1abc9c;
 	}
 
@@ -240,7 +240,7 @@ h1, h2
 	#maincont a
 	{
 		color: #FFF;
-		opacity: 0.6;
+		opacity: .6;
 	}
 	
 		#maincont a:hover
@@ -267,84 +267,52 @@ footer
 #footercont
 {
 	position: relative;
-	font-size: 18px;
 }
 
 	#footercont #socialmedia ul
 	{
-		margin: 0 0 30px 0;
+		margin: 0 0 1.5em 0;
 	}
 
 	#footercont #socialmedia ul li
 	{
 		display: inline-block;
 		list-style-type: none;
-		margin: 0 5px;
+		margin: 0 .25em;
 	}
 
 		#footercont #socialmedia ul li a
 		{
-			font-size: 16px;
+			font-size: 0.9em;
 			color: #efefef;
-			width: 180px;
-			border-radius: 8px;
+			width: 11em;
+			border-radius: .4em;
 			background: rgba(239, 239, 239, 0.3);
-			padding: 4px 8px;
+			padding: .3em .5em;
 			position: relative;
 			display: inline-block;
 		}
 
 			#footercont #socialmedia ul li a i
 			{
-				font-size: 40px;
+				font-size: 2.2em;
 				float: left;
 			}
 
 			#footercont #socialmedia ul li a span
 			{
 				position: absolute;
-				left: 50px;
-				top: 4px;
-				line-height: 20px;
+				left: 2.8em;
+				top: .2em;
+				line-height: 1.2em;
 				text-align: left;
+				width: 7.5em;
 			}
 		
 			#footercont #socialmedia ul li a:hover
 			{
 				color: #049cdb;
 			}
-			
-	#footercont p.backtotop
-	{
-		margin: 0 0 40px 0;
-	}
-
-		#footercont p.backtotop a
-		{
-			position: relative;
-			display: inline-block;
-			background: #EEE;
-			font-size: 32px;
-			line-height: 32px;
-			color: #999;
-			padding: 5px 12px;
-			
-			-webkit-border-radius: 4px;
-			-moz-border-radius: 4px;
-			border-radius: 4px;
-		}
-		
-			#footercont p.backtotop a:hover
-			{
-				background-color: #1ABC9C;
-				color: #FFF;
-				text-decoration: none;
-			}
-			
-				#footercont p.backtotop a:active
-				{
-					top: 2px;
-				}
 
 /* ==================================================
    Tile grid
@@ -385,31 +353,14 @@ footer
 
 		#topcontainer h1 span
 		{
-			font-size: 70px;
-			line-height: 70px;
+			font-size: 3.04em;
+			line-height: 3.04em;
 		}
 		
 	.tiles li {
 		display: block;
 		width: 100%;
 	}
-		
-	#footercont
-	{
-		font-size: 19px;
-	}
-		
-		#footercont #footerleft
-		{
-			float: none;
-			padding: 30px 0;
-			text-align: center;
-		}
-		
-		#footercont #footerright
-		{
-			float: none;
-		}
 	
 }
 
@@ -422,26 +373,26 @@ footer
 
 	body
 	{
-		font-size: 21px;
+		font-size: 20px;
 		line-height: 27px;
 	}
 	
 	#topcontainer h1
 	{
-		font-size: 60px;
-		line-height: 80px;
+		font-size: 3em;
+		line-height: 1.5em;
 		
 	}
 
 		#topcontainer h1 span
 		{
-			font-size: 50px;
-			line-height: 50px;
+			font-size: 2.5em;
+			line-height: 2.5em;
 		}
 	
 	#footercont #socialmedia ul li
 	{
-		margin: 0 5px;
+		margin: 0 0.25em;
 	}
 	
 }
