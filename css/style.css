@@ -382,19 +382,17 @@ footer
 		font-size: 23px;
 		line-height: 29px;
 	}
-	
-	#topcontainer h1
-	{
-		font-size: 54px;
-		line-height: 54px;
-		letter-spacing: -1.2px;
-	}
 
 		#topcontainer h1 span
 		{
 			font-size: 70px;
 			line-height: 70px;
 		}
+		
+	.tiles li {
+		display: block;
+		width: 100%;
+	}
 		
 	#footercont
 	{
@@ -407,11 +405,6 @@ footer
 			padding: 30px 0;
 			text-align: center;
 		}
-		
-			#footercont #socialmedia ul li a
-			{
-				font-size: 32px;
-			}
 		
 		#footercont #footerright
 		{
@@ -435,8 +428,8 @@ footer
 	
 	#topcontainer h1
 	{
-		font-size: 36px;
-		line-height: 36px;
+		font-size: 60px;
+		line-height: 80px;
 		
 	}
 
@@ -450,11 +443,6 @@ footer
 	{
 		margin: 0 5px;
 	}
-	
-		#footercont #socialmedia ul li a
-		{
-			font-size: 28px;
-		}
 	
 }
 
